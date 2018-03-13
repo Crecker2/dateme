@@ -9,6 +9,8 @@ var flkty = new Flickity( car1, {
 
 
 var gallery = document.querySelector('.gallerycontainer')
-var msrny = new Masonry( gallery, {
-	itemSelector: '.galleryitem'
+imagesLoaded(gallery, function(){
+	var msrny = new Masonry( gallery, {
+		itemSelector: '.galleryitem'
+	});
 });
