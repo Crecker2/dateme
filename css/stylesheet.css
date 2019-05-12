@@ -113,46 +113,15 @@ section{
 }
 
 .gallerycontainer{
-	display: block;
 	margin: 0 auto;
 	width:80%;
 }
 
 .galleryitem{
 	max-width: 450px;
-	margin: 5px;
+	margin: 5px auto;
+	display: block;
 }
-
-.galleryitem .overlay{
-	position: absolute;
-	opacity: 0;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	transition: .3s ease;
-	background-color: #6A1B9A;
-}
-
-.galleryitem .overlay .text{
-	color: white;
-	font-size: 15px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	text-align: center;
-	width: 80%;
-
-}
-
-.galleryitem .overlay:hover{
-	opacity: .9;
-}
-
 
 .galleryitem img{
 	border-radius: 2px;

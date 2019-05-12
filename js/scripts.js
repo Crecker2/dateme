@@ -7,10 +7,10 @@ var flkty = new Flickity( car1, {
   prevNextButtons: false
 });
 
-
-var gallery = document.querySelector('.gallerycontainer')
-imagesLoaded(gallery, function(){
-	var msrny = new Masonry( gallery, {
-		itemSelector: '.galleryitem'
-	});
-});
+// 
+// var gallery = document.querySelector('.gallerycontainer')
+// imagesLoaded(gallery, function(){
+// 	var msrny = new Masonry( gallery, {
+// 		itemSelector: '.galleryitem'
+// 	});
+// });
